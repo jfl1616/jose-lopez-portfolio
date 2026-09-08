@@ -1,0 +1,7 @@
+services:
+  portfolio:
+    build: .
+    image: jfl1616/jose-lopez-portfolio:latest
+    ports:
+      - "8080:80"
+    restart: unless-stopped
